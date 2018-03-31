@@ -1,0 +1,19 @@
+{
+  "name": "boost-bot",
+  "version": "1.0.0",
+  "description": "Mastodon bot that boosts messages",
+  "main": "index.js",
+  "repository": "https://github.com/Gargron/boost-bot",
+  "author": "Eugen Rochko <eugen@zeonfederated.com>",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^5.0.1",
+    "eventsource": "^1.0.5",
+    "mastodon": "^1.2.2",
+    "npmlog": "^4.1.2",
+    "throttled-queue": "^1.0.5"
+  },
+  "scripts": {
+    "start": "node ./index.js"
+  }
+}
